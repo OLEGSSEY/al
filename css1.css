@@ -1,0 +1,382 @@
+body{
+background-image: url(images/bg.jpg);
+}
+a.button1 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: -420px; /* Расстояние от верхнего края */ 
+    bottom: 440;
+	margin: 440px;
+	position: fixed;
+	z-index:1;
+	left: 255px;
+	font-weight: bold;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button1:hover {
+    background: grey;
+ }
+   
+a.button2 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: -420px; /* Расстояние от верхнего края */ 
+    bottom: 440;
+	margin: 440px;
+	position: fixed;
+	z-index:1;
+	left: 350px;
+	font-weight: bold;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button2:hover {
+    background: #067aa1;
+ }   
+a.button3 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: -420px; /* Расстояние от верхнего края */ 
+    bottom: 440;
+	margin: 440px;
+	position: fixed;
+	z-index:1;
+	left: 485px;
+	font-weight: bold;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button3:hover {
+    background: #067aa1;
+ }   
+a.button4 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: -420px; /* Расстояние от верхнего края */ 
+    bottom: 440;
+	margin: 440px;
+	position: fixed;
+	z-index:1;
+	left: 650px;
+	font-weight: bold;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button4:hover {
+    background: grey;
+ }   
+a.button5 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 455px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 110px;
+	position: absolute;
+	left: 98px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+   .blue  {	background: #00ced1; }
+   
+a.button6 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 510px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 110px;
+	position: absolute;
+	left: 100px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button6:hover {
+    background: grey;
+ }   
+   
+
+a.button7 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 455px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 110px;
+	position: absolute;
+	left: 540px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+
+   
+a.button8 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 510px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 110px;
+	position: absolute;
+	left: 555px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button8:hover {
+    background: grey;
+ }
+a.button9 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 455px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 110px;
+	position: absolute;
+	left: 945px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+   .blue  {	background: #00ced1; }
+   
+a.button10 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 510px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 110px;
+	position: absolute;
+	left: 980px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button10:hover {
+    background: grey;
+ }
+ a.button11 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 465px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 100px;
+	position: absolute;
+	left: 1317px;
+	font-size: 20px;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+   .blue  {	background: #00ced1; }
+   
+a.button12 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 520px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 100px;
+	position: absolute;
+	left: 1400px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button12:hover {
+    background: grey;
+ }
+
+a.button13 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 1065px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 100px;
+	position: absolute;
+	left: 75px;
+	font-size: 20px;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+   .blue  {	background: #00ced1; }
+   
+a.button14 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 1120px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 100px;
+	position: absolute;
+	left: 110px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+ a.button14:hover {
+    background: grey;
+ }
+   
+a.button15 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 1065px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 100px;
+	position: absolute;
+	left: 550px;
+	font-size: 20px;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+   
+a.button16 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 1120px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 100px;
+	position: absolute;
+	left: 545px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button16:hover {
+    background: grey;
+ }
+
+a.button17 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 1065px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 100px;
+	position: absolute;
+	left: 940px;
+	font-size: 20px;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+   
+a.button18 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 1120px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 100px;
+	position: absolute;
+	left: 980px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button18:hover {
+    background: grey;
+ }
+a.button19 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: white; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 1065px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 100px;
+	position: absolute;
+	left: 1330px;
+	font-size: 20px;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+ 
+a.button20 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 10px 20px; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: 1120px; /* Расстояние от верхнего края */ 
+    bottom: 500;
+	margin: 100px;
+	position: absolute;
+	left: 1400px;
+	font-size: 20px ;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+ a.button20:hover {
+    background: grey;
+ }

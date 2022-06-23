@@ -1,0 +1,85 @@
+body{
+background-image: url(images/bg.jpg);
+}
+
+a.button1 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: -420px; /* Расстояние от верхнего края */ 
+    bottom: 440;
+	margin: 440px;
+	position: fixed;
+	z-index:1;
+	left: 255px;
+	font-weight: bold;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+ a.button1:hover {
+    background: grey;
+ }   
+a.button2 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: -420px; /* Расстояние от верхнего края */ 
+    bottom: 440;
+	margin: 440px;
+	position: fixed;
+	z-index:1;
+	left: 350px;
+	font-weight: bold;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button2:hover {
+    background: #067aa1;
+ }
+   
+a.button3 {
+    background: #00BFFF; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: -420px; /* Расстояние от верхнего края */ 
+    bottom: 440;
+	margin: 440px;
+	position: fixed;
+	z-index:1;
+	left: 485px;
+	font-weight: bold;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button3:hover {
+    background: #067aa1;
+ } 
+   
+a.button4 {
+    background: white; /* Синий цвет фона */
+    color: black; /* Белый цвет текста */
+    border: none; /* Убираем рамку */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    margin-bottom: 1rem; /* Отступ снизу */ 
+	border-radius: 10px;
+	top: -420px; /* Расстояние от верхнего края */ 
+    bottom: 440;
+	margin: 440px;
+	position: fixed;
+	z-index:1;
+	left: 650px;
+	font-weight: bold;
+	font-family:Century Gothic;
+	text-decoration:none;
+   }
+a.button4:hover {
+background: grey;}
