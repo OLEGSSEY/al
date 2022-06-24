@@ -11,53 +11,157 @@
 </style>
 </head>
 <body>
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<div class ="busket"style="position:absolute;left:1200px;top:20px;position:fixed;z-index:1;">
+<a></a>
+</div>
  <a class="button1" href="GAMES.html">ИГРЫ</a>
  <a class="button2" href="CONSOLE.html">КОНСОЛИ</a>
  <a class="button3" href="ASS.html">АКСЕСCУАРЫ</a>
  <a class="button4" href="US.html">О НАС</a>
- <a class="button5">Аккумулятор повышенной ёмкости - 1000 Р</a>
- <div class="b6">
- <a class="button6">Есть в наличии</a>
- </div>
- <a class="button7">Гарнитура XBOX - 6000 Р</a>
- <a class="button8">Есть в наличии</a>
- <a class="button9">DUALSHOCK 4 - 4500 Р</a>
- <a class="button10">Есть в наличии</a>
- <a class="button11">PS PLUS - 1500 Р</a>
- <a class="button12">Есть в наличии</a>
- <a class="button13">PULSE 3D - 7000 Р</a>
- <a class="button14">Есть в наличии</a>
- <a class="button15">XBOX Game Pass Ultimate - 2000 Р</a>
- <a class="button16">Есть в наличии</a>
- <a class="button17">Геймпад XBOX Series - 6500 Р</a>
- <a class="button18">Есть в наличии</a>
- <a class="button19">DUALSENSE - 6500 Р</a>
- <a class="button20">Есть в наличии</a>
- <img src ="images/AK.jpg" style="position:absolute;left:90px;top:100px"width=450>
- <img src ="images/G.jpg" style="position:absolute;left:550px;top:100px"width=450>
- <img src ="images/D4.jpg" style="position:absolute;left:1000px;top:150px">
- <img src ="images/ps+.jpg" style="position:absolute;left:1350px;top:25px"width=450>
- <img src ="images/P3.jpg" style="position:absolute;left:15px;top:710px"width=570>
- <img src ="images/XGP.jpg" style="position:absolute;left:380px;top:700px"width=770>
- <img src ="images/X.jpg" style="position:absolute;left:920px;top:800px"width=500>
- <img src ="images/ps5.jpeg" style="position:absolute;left:1420px;top:800px"width=400>
-<a href="index.html"><img src ="images/logo.jpg"style="position:absolute;left:120px;top:20px;" ></a>
-<div class ="busket">
-<img src ="images/K.jpg"style="position:absolute;left:1200px;top:20px;position:fixed;z-index:1;"width=55 >
+ 
+ 
+ <div class = "frame"style="position:absolute;left:80px;top:100px">
+	<div class ="tlouimage"><img src ="images/AK.jpg"width=450></div>
+	<div class ="tloubutton1">Аккумулятор повышенной ёмкости - 1000 Р</div>
+	<div class ="tloubutton">
+	<a class = "tloubutton2"
+  data-sb-id-or-vendor-code="13" 
+  data-sb-product-name="Аккумулятор повышенной ёмкости"
+  data-sb-product-price="4500"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/AK.jpg">Есть в наличии</a>
+  </div>
 </div>
 
+<div class = "frame"style="position:absolute;left:530px;top:100px">
+	<div class ="timage"><img src ="images/G.jpg"width=450></div>
+	<div class ="tbutton1">Гарнитура XBOX - 6000 Р</div>
+	<div class ="tbutton">
+	<a class = "tloubutton2"style="position:relative;left:5px;top:-180px"
+  data-sb-id-or-vendor-code="14"
+  data-sb-product-name="Гарнитура XBOX"
+  data-sb-product-price="4500"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/G.jpg">Есть в наличии</a>
+  	</div>
+</div>
 
+<div class = "frame"style="position:absolute;left:1000px;top:250px">
+	<div class ="urimage"><img src ="images/ps4.jpeg"width=450></div>
+	<div class ="ubutton1">DUALSHOCK 4 - 3500 Р</div>
+	<div class ="ubutton">
+	<a class = "tloubutton2"style="position:relative;left:10px;top:-170px"
+  data-sb-id-or-vendor-code="15"
+  data-sb-product-name="DUALSHOCK 4"
+  data-sb-product-price="4500"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/ps4.jpeg">Есть в наличии</a>
+  	</div>
+</div>
 
-<link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+<div class = "frame"style="position:absolute;left:1438px;top:35px">
+	<div class ="vimage"><img src ="images/ps+.jpg"width=450></div>
+	<div class ="vbutton1">PS Plus - 1500 Р</div>
+	<div class ="vbutton">
+	<a class = "tloubutton2"style="position:relative;left:15px;top:-300px"
+  data-sb-id-or-vendor-code="16"
+  data-sb-product-name="PS Plus"
+  data-sb-product-price="1500"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/ps+.jpg">Есть в наличии</a>
+  	</div>
+</div>
 
-<div class="smart-basket_wrapper"></div>
+<div class = "frame"style="position:absolute;left:10px;top:700px">
+	<div class ="wimage"><img src ="images/P3.jpg"width=570></div>
+	<div class ="wbutton1">Pulse 3D- 7000 Р</div>
+	<div class ="wbutton">
+	<a class = "tloubutton2"style="position:relative;left: 35px;top:-170px"
+  data-sb-id-or-vendor-code="17"
+  data-sb-product-name="Pulse 3D"
+  data-sb-product-price="7000"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/P3.jpg">Есть в наличии</a>
+  	</div>
+</div>
 
-<script src="./smartbasket/js/smartbasket.min.js"></script>
+<div class = "frame"style="position:absolute;left:380px;top:700px">
+	<div class ="ximage"><img src ="images/XGP.jpg"width=770></div>
+	<div class ="xbutton1">XBOX Game Pass - 2000 Р</div>
+	<div class ="xbutton">
+	<a class = "tloubutton2"style="position:relative;left:165px;top:-325px"
+  data-sb-id-or-vendor-code="18"
+  data-sb-product-name="XBOX Game Pass"
+  data-sb-product-price="2000"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/XGP.jpg">Есть в наличии</a>
+  	</div>
+	
+</div>
+
+<div class = "frame"style="position:absolute;left:950px;top:885px">
+	<div class ="yimage"><img src ="images/X.jpg"width=500></div>
+	<div class ="ybutton1">Геймпад XBOX Series - 6500 Р</div>
+	<div class ="ydbutton">
+	<a class = "tloubutton2"style="position:relative;left:30px;top:-170px"
+  data-sb-id-or-vendor-code="19"
+  data-sb-product-name="Геймпад XBOX Series"
+  data-sb-product-price="6500"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/X.jpg">Есть в наличии</a>
+  	</div>
+	
+</div>
+
+<div class = "frame"style="position:absolute;left:1450px;top:900px">
+	<div class ="zimage"><img src ="images/ps5.jpeg"width=400></div>
+	<div class ="zbutton1">DUALSENSE - 6500 Р</div>
+	<div class ="zbutton">
+	<a class = "tloubutton2"style="position:relative;left:-20px;top:-170px"
+  data-sb-id-or-vendor-code="20"
+  data-sb-product-name="DUALSENSE"
+  data-sb-product-price="6500"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/ps5.jpeg">Есть в наличии</a>
+  	</div>
+	
+</div>
+ 
+
+<a href="index.html"><img src ="images/logo.jpg"style="position:absolute;left:120px;top:20px;" ></a>
+
 
 <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
 
 <div class="smart-basket__wrapper"></div>
 
 <script src="./smartbasket/js/smartbasket.min.js"></script>
+
+	<script>
+		$(function () {
+			$('.smart-basket__wrapper').smbasket({
+				productElement: "frame",
+				buttonAddToBasket: "tloubutton2",
+				productPrice: 'product__price-number',
+				productSize: 'product__size-element',
+				
+				productQuantityWrapper: 'product__quantity',
+				smartBasketMinArea: "busket",
+				countryCode: '+7',
+				smartBasketCurrency: '₽',
+				smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',
+
+				agreement: {
+					isRequired: true,
+					isChecked: true,
+					isLink: 'https://artstranger.ru/privacy.html',
+				},
+				nameIsRequired: false,
+			});
+		});
+	</script>
+
+
 </body>
 </html>

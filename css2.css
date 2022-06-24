@@ -84,83 +84,29 @@ a.button4 {
 a.button4:hover {
     background: grey;
  }
-a.button5 {
+ 
+.tloubutton2 {
+	position:relative;
+	top: -95px;
+	left: -355px;
     background: white; /* Синий цвет фона */
     color: black; /* Белый цвет текста */
     border: none; /* Убираем рамку */
-    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    padding: 10px 20px; /* Поля вокруг текста */
     margin-bottom: 1rem; /* Отступ снизу */ 
 	border-radius: 10px;
-	top: 560px; /* Расстояние от верхнего края */ 
     bottom: 500;
 	margin: 110px;
-	position: absolute;
-	left: 123px;
-	font-size: 21px ;
+	font-size: 20px ;
 	font-family:Century Gothic;
 	text-decoration:none;
    }
-a.button5:hover {
+.tloubutton2:hover {
     background: grey;
- }
-a.button6 {
-    background: white; /* Синий цвет фона */
-    color: black; /* Белый цвет текста */
-    border: none; /* Убираем рамку */
-    padding:  1rem 1.5rem; /* Поля вокруг текста */
-    margin-bottom: 1rem; /* Отступ снизу */ 
-	border-radius: 10px;
-	top: 1750px; /* Расстояние от верхнего края */ 
-    bottom: 500;
-	margin: 110px;
-	position: absolute;
-	left: 1390px;
-	z-index:1;
-	font-size: 21px ;
-	font-family:Century Gothic;
-	text-decoration:none;
-   }
-a.button6:hover {
-    background: grey;
- }
-a.button7 {
-    background: white; /* Синий цвет фона */
-    color: black; /* Белый цвет текста */
-    border: none; /* Убираем рамку */
-    padding: 1rem 1.5rem; /* Поля вокруг текста */
-    margin-bottom: 1rem; /* Отступ снизу */ 
-	border-radius: 10px;
-	top: 1750px; /* Расстояние от верхнего края */ 
-    bottom: 500;
-	margin: 110px;
-	position: absolute;
-	z-index:1;
-	left: 120px;
-	font-size: 21px ;
-	font-family:Century Gothic;
-	text-decoration:none;
-   }
-a.button7:hover {
-    background: grey;
- }
-a.button8 {
-    background: white; /* Синий цвет фона */
-    color: black; /* Белый цвет текста */
-    border: none; /* Убираем рамку */
-    padding:  1rem 1.5rem; /* Поля вокруг текста */
-    margin-bottom: 1rem; /* Отступ снизу */ 
-	border-radius: 10px;
-	top: 560px; /* Расстояние от верхнего края */ 
-    bottom: 500;
-	margin: 110px;
-	position: absolute;
-	left: 1385px;
-	font-size: 21px;
-	font-family:Century Gothic;
-	text-decoration:none;
-   }
-a.button8:hover {
-    background: grey;
- }
+ }   
+ 
+
+
+
 
 

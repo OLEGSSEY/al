@@ -7,22 +7,66 @@
 	<title></title>
 	<link rel="stylesheet" href="css2.css">
 <title></title>
-<link rel="stylesheet" href="css.css">
+
 <style>
 </style>
 </head>
 <body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
  <a class="button1" href="GAMES.html">ИГРЫ</a>
  <a class="button2" href="CONSOLE.html">КОНСОЛИ</a>
  <a class="button3" href="ASS.html">АКСЕСCУАРЫ</a>
  <a class="button4" href="US.html">О НАС</a>
- <a class="button5" href="KORZINA.html">Есть в наличии</a>
- <a class="button6" href="KORZINA.html">Есть в наличии</a>
- <a class="button7" href="KORZINA.html">Есть в наличии</a>
- <a class="button8" href="KORZINA.html">Есть в наличии</a>
+ 
+ <div class = "frame"style="position:absolute;left:480px;top:260px;">
+	<div class ="tlouimage"><img src ="images/XSS.jpg"></div>
+	<div class ="tloubutton">
+	<a class = "tloubutton2"
+  data-sb-id-or-vendor-code="09"
+  data-sb-product-name="XBOX Series S"
+  data-sb-product-price="30790"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/XSS.jpg">Есть в наличии</a>
+  </div>
+</div>
+ 
+  <div class = "frame"style="position:absolute;left:960px;top:235px;">
+	<div class ="tlouimage"><img src ="images/XSX.jpg"></div>
+	<div class ="tloubutton">
+	<a class = "tloubutton2"style="position:relative;top: -115px;left: 435px;"
+  data-sb-id-or-vendor-code="10"
+  data-sb-product-name="XBOX Series X"
+  data-sb-product-price="49990"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/XSX.jpg">Есть в наличии</a>
+  </div>
+</div>
+
+  <div class = "frame"style="position:absolute;left:250px;top:1330px;">
+	<div class ="tlouimage"><img src ="images/PS.jpg"width=1400></div>
+	<div class ="tloubutton">
+	<a class = "tloubutton2"style="position:relative;top:-115px;left:-120px;"
+  data-sb-id-or-vendor-code="11"
+  data-sb-product-name="PS5"
+  data-sb-product-price="49990"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/PP.jpg">Есть в наличии</a>
+  </div>
+</div>
+
+  <div class = "frame"style="position:absolute;left:250px;top:1330px;">
+	<div class ="tlouimage"><img src ="images/PS.jpg"width=1400></div>
+	<div class ="tloubutton">
+	<a class = "tloubutton2"style="position:relative;top:-115px;left:1140px;"
+  data-sb-id-or-vendor-code="12"
+  data-sb-product-name="PS5 Digital"
+  data-sb-product-price="40990"
+  data-sb-product-quantity="1"
+  data-sb-product-img="images/PD.jpg">Есть в наличии</a>
+  </div>
+</div>
+
  <a href="index.html"><img src ="images/logo.jpg"style="position:absolute;left:120px;top:20px;" ></a>
- <img src ="images/XSS.jpg"style="position:absolute;left:480px;top:260px;">
- <img src ="images/XSX.jpg" style="position:absolute;left:960px;top:235px;">
 <div style="position: absolute; left:150px; top: 360px; font-size:55px; font-family:Century Gothic;">
     <P> XBOX Series S </P>
      </div>
@@ -41,7 +85,37 @@
 <div style="position: absolute; left:500px; top: 1710px;font-size:30px; font-family:Century Gothic;">
     <P> 49 990 </P>
      </div>
- <img src ="images/PS.jpg"style="position:absolute;left:250px;top:1330px;" width=1400>
- <a class ="busket"><img src ="images/K.jpg"style="position:absolute;left:1200px;top:20px;position:fixed;z-index:1;"width=55 ></a>
+ <div class ="busket"style="position:absolute;left:1200px;top:20px;position:fixed;z-index:1;">
+<a></a>
+</div>
+ <link rel="stylesheet" href="smartbasket/css/smartbasket.min.css">
+
+<div class="smart-basket__wrapper"></div>
+
+<script src="./smartbasket/js/smartbasket.min.js"></script>
+
+	<script>
+		$(function () {
+			$('.smart-basket__wrapper').smbasket({
+				productElement: "frame",
+				buttonAddToBasket: "tloubutton2",
+				productPrice: 'product__price-number',
+				productSize: 'product__size-element',
+				
+				productQuantityWrapper: 'product__quantity',
+				smartBasketMinArea: "busket",
+				countryCode: '+7',
+				smartBasketCurrency: '₽',
+				smartBasketMinIconPath: './smartbasket/img/shopping-basket-wight.svg',
+
+				agreement: {
+					isRequired: true,
+					isChecked: true,
+					isLink: 'https://artstranger.ru/privacy.html',
+				},
+				nameIsRequired: false,
+			});
+		});
+	</script>
 </body>
 </html>
